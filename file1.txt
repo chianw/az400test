@@ -1,3 +1,5 @@
 this is file 1 modified from a stage
 3march24-made a change to file1.txt on main branch
 3march24-squash merge master branch
+
+test normal merge
