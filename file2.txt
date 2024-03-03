@@ -1,2 +1,3 @@
 this is file2, I need more changes on file2
 3March24-made change to file2 under pre-release1 branch
+3March24-squash merge for file2 under pre-release1 branch
