@@ -1,3 +1,5 @@
+trigger: none
+
 jobs:
 - deployment: deploy
   displayName: Deploy with Terraform
