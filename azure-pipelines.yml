@@ -44,7 +44,6 @@ jobs:
             provider: 'azurerm'
             command: 'apply'
             workingDirectory: '$(workingDirectory)'
-            commandOptions: '-auto-approve -var="resource_group_name=$(AZURE_RESOURCE_GROUP_NAME)"'
-            environmentServiceNameAzureRM: '${{ variables.serviceConnection }}'
-          env:
-            ARM_USE_AZUREAD: true
+            commandOptions: '-auto-approve'
+            environmentServiceNameAzureRM: '$(serviceConnection)'
+            backendAzureRmUseEntraIdForAuthentication: true
