@@ -23,10 +23,11 @@ jobs:
             command: 'init'
             # backendAzureRmUseEntraIdForAuthentication: true
             backendServiceArm: 'sc-subcription10'
-            backendAzureRmResourceGroupName: 'az400rg'
-            backendAzureRmStorageAccountName: 'az400tfstate12'
-            backendAzureRmContainerName: 'tfstate'
-            backendAzureRmKey: 'terraform.tfstate'
+            # backendAzureRmResourceGroupName: 'az400rg'
+            # backendAzureRmStorageAccountName: 'az400tfstate12'
+            # backendAzureRmContainerName: 'tfstate'
+            # backendAzureRmKey: 'terraform.tfstate'
+
         # - task: TerraformTaskV4@4
         #   displayName: Terraform Init
         #   inputs:
