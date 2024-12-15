@@ -21,7 +21,7 @@ jobs:
           inputs:
             provider: 'azurerm'
             command: 'init'
-            backendAzureRmUseEntraIdForAuthentication: true
+            # backendAzureRmUseEntraIdForAuthentication: true
             backendServiceArm: 'sc-subcription10'
             backendAzureRmResourceGroupName: 'az400rg'
             backendAzureRmStorageAccountName: 'az400tfstate12'
