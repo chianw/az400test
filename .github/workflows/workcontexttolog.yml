@@ -1,4 +1,4 @@
-name: Write Contexts to Log
+name: Write All Contexts to Log
 
 on:
   push:
