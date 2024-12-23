@@ -1,7 +1,6 @@
 name: Write All Contexts to Log
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
